@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF1496A51DC661F01EF0F33 /* Pods_acasa_tech_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E958DFFB741FAAEA23F85A6 /* Pods_acasa_tech_test.framework */; };
 		FA76FDCF201BBB4700F0B2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76FDCE201BBB4700F0B2A9 /* AppDelegate.swift */; };
 		FA76FDD1201BBB4700F0B2A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76FDD0201BBB4700F0B2A9 /* ViewController.swift */; };
 		FA76FDD4201BBB4700F0B2A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76FDD2201BBB4700F0B2A9 /* Main.storyboard */; };
 		FA76FDD6201BBB4700F0B2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA76FDD5201BBB4700F0B2A9 /* Assets.xcassets */; };
 		FA76FDD9201BBB4700F0B2A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76FDD7201BBB4700F0B2A9 /* LaunchScreen.storyboard */; };
+		FA76FDE1201DD3B300F0B2A9 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76FDE0201DD3B300F0B2A9 /* PaymentTableViewCell.swift */; };
+		FA76FDE3201DD44C00F0B2A9 /* AcasaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76FDE2201DD44C00F0B2A9 /* AcasaModel.swift */; };
+		FA76FDE5201DD73000F0B2A9 /* SharedDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76FDE4201DD73000F0B2A9 /* SharedDateFormatter.swift */; };
+		FA8CC83F201E6A41005FAC34 /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8CC83E201E6A41005FAC34 /* PaymentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17EB87E84D4CA6DCE75A9375 /* Pods-acasa_tech_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acasa_tech_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-acasa_tech_test/Pods-acasa_tech_test.release.xcconfig"; sourceTree = "<group>"; };
+		3D3B20CD7FE96F4B97025195 /* Pods-acasa_tech_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acasa_tech_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acasa_tech_test/Pods-acasa_tech_test.debug.xcconfig"; sourceTree = "<group>"; };
+		5E958DFFB741FAAEA23F85A6 /* Pods_acasa_tech_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acasa_tech_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA76FDCB201BBB4700F0B2A9 /* acasa_tech_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acasa_tech_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA76FDCE201BBB4700F0B2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA76FDD0201BBB4700F0B2A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		FA76FDD5201BBB4700F0B2A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA76FDD8201BBB4700F0B2A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA76FDDA201BBB4700F0B2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA76FDE0201DD3B300F0B2A9 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		FA76FDE2201DD44C00F0B2A9 /* AcasaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcasaModel.swift; sourceTree = "<group>"; };
+		FA76FDE4201DD73000F0B2A9 /* SharedDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDateFormatter.swift; sourceTree = "<group>"; };
+		FA8CC83E201E6A41005FAC34 /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF1496A51DC661F01EF0F33 /* Pods_acasa_tech_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2B9D0D5D05DB8FC4BCB83C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B20CD7FE96F4B97025195 /* Pods-acasa_tech_test.debug.xcconfig */,
+				17EB87E84D4CA6DCE75A9375 /* Pods-acasa_tech_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA76FDC2201BBB4700F0B2A9 = {
 			isa = PBXGroup;
 			children = (
 				FA76FDCD201BBB4700F0B2A9 /* acasa_tech_test */,
 				FA76FDCC201BBB4700F0B2A9 /* Products */,
+				C2B9D0D5D05DB8FC4BCB83C6 /* Pods */,
+				FC4ADA89E0CDF4F2A33A79E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +80,24 @@
 			children = (
 				FA76FDCE201BBB4700F0B2A9 /* AppDelegate.swift */,
 				FA76FDD0201BBB4700F0B2A9 /* ViewController.swift */,
+				FA8CC83E201E6A41005FAC34 /* PaymentDetailViewController.swift */,
+				FA76FDE2201DD44C00F0B2A9 /* AcasaModel.swift */,
+				FA76FDE4201DD73000F0B2A9 /* SharedDateFormatter.swift */,
+				FA76FDE0201DD3B300F0B2A9 /* PaymentTableViewCell.swift */,
 				FA76FDD2201BBB4700F0B2A9 /* Main.storyboard */,
 				FA76FDD5201BBB4700F0B2A9 /* Assets.xcassets */,
 				FA76FDD7201BBB4700F0B2A9 /* LaunchScreen.storyboard */,
 				FA76FDDA201BBB4700F0B2A9 /* Info.plist */,
 			);
 			path = acasa_tech_test;
+			sourceTree = "<group>";
+		};
+		FC4ADA89E0CDF4F2A33A79E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E958DFFB741FAAEA23F85A6 /* Pods_acasa_tech_test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA76FDDD201BBB4700F0B2A9 /* Build configuration list for PBXNativeTarget "acasa_tech_test" */;
 			buildPhases = (
+				606F0E448217B8E25FDCCCAD /* [CP] Check Pods Manifest.lock */,
 				FA76FDC7201BBB4700F0B2A9 /* Sources */,
 				FA76FDC8201BBB4700F0B2A9 /* Frameworks */,
 				FA76FDC9201BBB4700F0B2A9 /* Resources */,
+				123CAF45AC532C4E3560A25A /* [CP] Embed Pods Frameworks */,
+				104FB51C4E3DCBC2B3A413F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +170,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		104FB51C4E3DCBC2B3A413F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acasa_tech_test/Pods-acasa_tech_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		123CAF45AC532C4E3560A25A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acasa_tech_test/Pods-acasa_tech_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606F0E448217B8E25FDCCCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA76FDC7201BBB4700F0B2A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA76FDD1201BBB4700F0B2A9 /* ViewController.swift in Sources */,
+				FA76FDE3201DD44C00F0B2A9 /* AcasaModel.swift in Sources */,
+				FA8CC83F201E6A41005FAC34 /* PaymentDetailViewController.swift in Sources */,
 				FA76FDCF201BBB4700F0B2A9 /* AppDelegate.swift in Sources */,
+				FA76FDE1201DD3B300F0B2A9 /* PaymentTableViewCell.swift in Sources */,
+				FA76FDE5201DD73000F0B2A9 /* SharedDateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +363,7 @@
 		};
 		FA76FDDE201BBB4700F0B2A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B20CD7FE96F4B97025195 /* Pods-acasa_tech_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +379,7 @@
 		};
 		FA76FDDF201BBB4700F0B2A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EB87E84D4CA6DCE75A9375 /* Pods-acasa_tech_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
